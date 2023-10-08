@@ -15,6 +15,7 @@ public class Hello extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.println("Hello from Servlet");
 		out.println("Hello GitHub");
+		out.println("Hello NewBranch");
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
